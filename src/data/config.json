@@ -1,0 +1,172 @@
+{
+  "scenes": [
+    {
+      "id": "0-01",
+      "name": "01",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "yaw": 0.0398350517364463,
+        "pitch": -0.07206213341555667,
+        "fov": 1.3446888170112152
+      },
+      "linkHotspots": [
+        {
+          "yaw": 1.6129798861866824,
+          "pitch": 0.10695034452441021,
+          "rotation": 0,
+          "target": "2-03"
+        },
+        {
+          "yaw": -0.25246048430600965,
+          "pitch": 0.11709797593934823,
+          "rotation": 0,
+          "target": "1-02",
+          "isRed": true,
+          "text": "Message"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": 0.6755478785511304,
+          "pitch": -0.30544416191109036,
+          "title": "Title",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.7433479465994957,
+          "pitch": -0.27394814973176196,
+          "title": "Title",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "1-02",
+      "name": "02",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.9242937774152011,
+          "pitch": 0.07615716485772239,
+          "rotation": 0,
+          "target": "2-03"
+        },
+        {
+          "yaw": -1.2288398325482746,
+          "pitch": 0.033122883053993135,
+          "rotation": 0,
+          "target": "0-01"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.3545471429816267,
+          "pitch": -0.3585647230337976,
+          "title": "Title",
+          "text": "Text"
+        }
+      ]
+    },
+    {
+      "id": "2-03",
+      "name": "03",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        },
+        {
+          "tileSize": 512,
+          "size": 2048
+        }
+      ],
+      "faceSize": 1520,
+      "initialViewParameters": {
+        "pitch": 0,
+        "yaw": 0,
+        "fov": 1.5707963267948966
+      },
+      "linkHotspots": [
+        {
+          "yaw": -0.40806356379820663,
+          "pitch": 0.182925004286135,
+          "rotation": 0,
+          "target": "1-02"
+        },
+        {
+          "yaw": 1.0773910701437437,
+          "pitch": 0.10234757396318628,
+          "rotation": 0,
+          "target": "0-01"
+        }
+      ],
+      "infoHotspots": [
+        {
+          "yaw": -0.8336174957102429,
+          "pitch": -0.05666102878518231,
+          "title": "Title",
+          "text": "Text"
+        }
+      ]
+    }
+  ],
+  "name": "Project Title",
+  "settings": {
+    "mouseViewMode": "drag",
+    "autorotateEnabled": true,
+    "fullscreenButton": false,
+    "viewControlButtons": false
+  }
+}

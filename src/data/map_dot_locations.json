@@ -1,0 +1,20 @@
+[
+  {
+    "index": 2,
+    "x": 58,
+    "y": 42,
+    "roomIndexes": [2, 2]
+  },
+  {
+    "index": 0,
+    "x": 69,
+    "y": 63,
+    "roomIndexes": [0]
+  },
+  {
+    "index": 1,
+    "x": 50,
+    "y": 50,
+    "roomIndexes": [1]
+  }
+]
